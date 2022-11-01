@@ -120,4 +120,30 @@ select {
     transform: scale(1.2);
   }
 }
-
+.mute.active {
+  background: cadetblue;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.tempo {
+  margin: 3rem;
+  width: 30%;
+}
+.tempo-slider {
+  padding: 0.2rem;
+  ~webkit-appearance: none;
+  margin: 1rem 0rem;
+  width: 100%;
+  position: relative;
+  background: darkgrey;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.tempo p {
+  font-size: 1.5rem;
+  margin: 2rem;
+  text-align: center;
+}
